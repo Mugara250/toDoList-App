@@ -13,7 +13,7 @@
           <h1>TASK MANAGER</h1>
         </div>
       </header>
-      <main class="w-[90%] mx-auto mt-10">
+      <main class="w-[90%] mx-auto mt-10 py-2">
         <div class="create-add-task text-4xl">
           <label for="task" class="font-semibold text-4xl"
             >Create a task:</label
@@ -28,7 +28,7 @@
             />
             <button
               type="button"
-              class="add-button font-bold self-end py-3 px-5 bg-[#1789A3] rounded-2xl"
+              class="add-button hover:cursor-pointer font-bold self-end py-3 px-5 bg-[#1789A3] rounded-2xl"
             >
               ADD TASK
             </button>
@@ -36,11 +36,10 @@
         </div>
         <div class="todo-list mt-6 text-4xl">
             <h1 class="font-semibold">TO DO LIST</h1>
-            <ul class="tasks bg-white">
-                
-            </ul>
+            <ul class="tasks flex flex-col gap-y-4 bg-white py-4 px-2"></ul>
         </div>
       </main>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>
